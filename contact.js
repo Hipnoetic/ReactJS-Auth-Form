@@ -45,8 +45,8 @@ const contactInfo = (
 <h1>
   { this.state.authorized ? 'Contact' : 'Enter the Password' }
 </h1>
-	{ this.state.authorized ? contactInfo : login }
- </div>
+  { this.state.authorized ? contactInfo : login }
+</div>
     );
   };
 };
